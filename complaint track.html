@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Complaints</title>
+    <style>
+        body { font-family: Arial; background:#f4f4f4; }
+        .container { width:80%; margin:auto; background:white; padding:20px; margin-top:30px; border-radius:8px; }
+        table { width:100%; border-collapse: collapse; }
+        th, td { border:1px solid #ccc; padding:10px; text-align:left; }
+        th { background:#2e8b57; color:white; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>My Complaints</h2>
+
+    <div>
+        <strong>Filter by Status:</strong><br>
+        <input type="radio" name="status" checked> All
+        <input type="radio" name="status"> In Progress
+        <input type="radio" name="status"> Resolved
+        <input type="radio" name="status"> Closed
+    </div>
+
+    <br>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Date</th>
+        </tr>
+        <tr>
+            <td>10245</td>
+            <td>Overflowing Bin</td>
+            <td>In Progress</td>
+            <td>15 April 2024</td>
+        </tr>
+        <tr>
+            <td>10230</td>
+            <td>Illegal Dumping</td>
+            <td>Resolved</td>
+            <td>10 April 2024</td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
